@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Navbar from './components/navbar';
 import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
@@ -8,7 +8,7 @@ import Teams from './components/Teams';
 import { ContactUs } from './components/ContactUs';
 import { Toaster } from 'react-hot-toast';
 import { Footer } from './components/Footer';
-import Navbar from './components/navbar';
+
 const App = () => {
   const [theme, setTheme] = React.useState(localStorage.getItem('theme')? localStorage.getItem('theme'):'light');
   return (
